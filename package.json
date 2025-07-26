@@ -4,9 +4,9 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch App.js",
-    "build": "npm install",
-    "start": "npx parcel public/index.html --port 3000"
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite preview --port 3000"
   },
   "keywords": [],
   "author": "",
