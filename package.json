@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node --watch App.js",
     "build": "npm install",
-    "start": "node App.js"
+    "start": "parcel public/index.html --port 3000"
+
   },
   "keywords": [],
   "author": "",
